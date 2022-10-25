@@ -4,24 +4,34 @@
     box-sizing: border-box;
 }
 #Mydiv{
-    width: 1000px;
+    width: 800px;
     margin:auto;
     display: flex;
     flex-wrap: wrap;
     background-color: bisque;
-    height: 1000px;
+    height: 800px;
     justify-content: space-between;
 }
-.square{
-    width: (100%/10 - 10px);
+.normal{
     background-color: blue;
+    display: flex;
 }
 .buzz{
     background-color: red;
+    display: flex;
 }
 .fizz{
-   background-color: aquamarine;
+    background-color: aquamarine;
+    display: flex;
 }
-.fizzBuzz{
+.both{
     background-color: blueviolet;
+    display: flex;
+}    
+.square{
+    width: calc(100%/10 - 5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
