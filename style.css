@@ -3,7 +3,7 @@
     padding:0px;
     box-sizing: border-box;
 }
-.Mydiv{
+#Mydiv{
     width: 1000px;
     margin:auto;
     display: flex;
