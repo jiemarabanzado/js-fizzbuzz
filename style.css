@@ -2,14 +2,14 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    background-color: bisque;
 }
 #Mydiv{
-    width: 800px;
+    padding-top: 70px;
+    width: 650px;
     margin:auto;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
-    background-color: bisque;
-    height: 800px;
     justify-content: space-between;
 }
 .normal{
@@ -30,8 +30,10 @@
 }    
 .square{
     width: calc(100%/10 - 5px);
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    color:white;
 }
